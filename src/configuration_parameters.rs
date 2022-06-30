@@ -119,7 +119,7 @@ impl ConfigurationParameters {
 
 fn get_eligible_arguments_for_app(app_name: &str) -> clap::ArgMatches {
     App::new(app_name)
-        .about("Brief description of program to be added here!!")
+        .about("This program takes the input from different files of different extension and produce the output file with the use of Configuration_parameter!!")
         .arg(
             Arg::with_name("log_file")
                 .long("log-file")

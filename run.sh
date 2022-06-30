@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-LOG_FILE=$"log.txt"
-DIAGNOSTICS_FILE=$"diag.txt"
-EMPLOYEE_DATA_FILE=$"emp.txt"
-DEPARTMENT_DATA_FILE=$"dept.xls"
-SALARY_DATA_FILE=$"salary.xlsx"
-LEAVE_DATA_FILE=$"leave.xlsx"
-FINAL_OUTPUT=$"output.txt"
+LOG_FILE=$"test-bed/log.txt"
+DIAGNOSTICS_FILE=$"test-bed/diag.txt"
+EMPLOYEE_DATA_FILE=$"test-bed/emp.txt"
+DEPARTMENT_DATA_FILE=$"test-bed/dept.xls"
+SALARY_DATA_FILE=$"test-bed/salary.xlsx"
+LEAVE_DATA_FILE=$"test-bed/leave.xlsx"
+FINAL_OUTPUT=$"test-bed/output.txt"
 
 cargo run -- \
 --log-file ${LOG_FILE} \

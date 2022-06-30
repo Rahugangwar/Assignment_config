@@ -7,3 +7,6 @@ Cargo.lock
 
 
 
+# Ignore test-beds across products. 
+# Outputs of each app go in a folder called test-bed. This makes it easy to write build scripts that refer to a test-bed location.
+**/test-bed/
