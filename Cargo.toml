@@ -1,0 +1,15 @@
+[package]
+name = "Assignment_3"
+version = "0.1.0"
+authors = ["Rahul Gangwar<rahul.gangwar@surya-soft.com>"]
+
+[dependencies]
+clap = "3.2.7"
+slog-term = "2.4.0"
+slog-async = "2.3.0"
+slog = { version = "2.2.3", features = ["max_level_trace", "release_max_level_trace"] }
+calamine = { version = "0.18.0" }
+chrono = { version = "0.4.19" }
+# This rbdate library path is relative so this might be needed to change as per config
+rbdate = { path = "/home/surya/SuperDB-Batch/hdfc/libraries/RBDate" }
+
